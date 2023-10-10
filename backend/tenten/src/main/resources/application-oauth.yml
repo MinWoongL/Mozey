@@ -4,14 +4,14 @@ spring:
       client:
         registration:
           kakao:
-            client-id: c5946728a9bb2c5f333e060a4c8a97d3
+            client-id: ${KAKAO_ADMIN_KEY}
 #            client-id: 77be51262f686d4c8a4aca363768bc54
 #            redirect-uri: http://localhost:8000/login/oauth2/code/kakao
 #            redirect-uri: https://j9a510.p.ssafy.io/login/oauth2/code/kakao
 #            redirect-uri: https://j9a510.p.ssafy.io/login/oauth2/code/kakao
             redirect-uri: http://j9a510.p.ssafy.io:8000/login/oauth2/code/kakao
             client-authentication-method: POST
-            client-secret: pRSA14TOtuEjc9Q6Ghb0ppyXnBcJi9Wz
+            client-secret: ${KAKAOPAY_ADMIN_SECRET}
 #            client-secret: F2GGqcXjCaWtBf8XM8DYm2iUVpsxkmAH
             authorization-grant-type: authorization_code
             response-type: code

@@ -12,17 +12,17 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
   redis:
-    host: j9a510.p.ssafy.io
-    port: 6379
+    host: ${REDIS_URL}
+    port: ${REDIS_PORT}
   profiles:
     include: oauth
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://j9a510.p.ssafy.io:3306/test?serverTimezone=Asia/Seoul
+    url: ${DATABASE_URL}
 #    url: jdbc:mysql://localhost:3306/tenten?serverTimezone=Asia/Seoul
     #
-    username: root
-    password: 3jbhrVyqstWs9ud
+    username: ${DATABASE_ID}
+    password: ${DATABASE_PASSWORD}
     # JPA
   jpa:
     database: mysql
@@ -35,7 +35,7 @@ spring:
         default_batch_fetch_size: 100 #성능 최적화
 
 jwt:
-  secretKey: Z29nby10bS1zZXJ2ZXItZGxyamVvYW9yb3JodG9kZ290c3Atam9vbmdhbmduaW0teWVvbHNpbWhpaGFsZ2VveW8K
+  secretKey: ${JWT_SECRET}
   access:
     expiration: 36000000 # 1시간(60분) (1000L(ms -> s) * 60L(s -> m) * 60L(m -> h))
     header: Authorization
