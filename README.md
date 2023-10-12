@@ -64,65 +64,65 @@
 
 * 카카오 로그인
 
-![회원가입](.\assets\images\kakao.gif)
+![회원가입](./assets/images/kakao.gif)
 
 <h2>마이페이지</h2>
 
 * 마이페이지에서 친구 추가
 
-![친구추가](.\assets\images\mypage addfriend.gif)
+![친구추가](./assets/images/mypage addfriend.gif)
 
 * 질문 신청
 
-![질문신청](.\assets\images\registques.gif)
+![질문신청](./assets/images/registques.gif)
 
 * 질문 신청 내역
 
-![질문신청내역](.\assets\images\applyquestion.gif)
+![질문신청내역](./assets/images/applyquestion.gif)
 
 * 구독
 
-![구독](.\assets\images\sub.gif)
+![구독](./assets/images/sub.gif)
 
 <h2>투표</h2>
 
 * 질문에 해당하는 친구 투표 및 포인트 획득
 
-![투표](.\assets\images\vote.gif)
+![투표](./assets/images/vote.gif)
 
 * 투표 횟수 제한
 
-![투표제한](.\assets\images\time.gif)
+![투표제한](./assets/images/time.gif)
 
 <h2>교환소</h2>
 
 * 주가 확인
 
-![주가확인](.\assets\images\kospi.gif)
+![주가확인](./assets/images/kospi.gif)
 
 * 재화 환전
 
-![재화환전](.\assets\images\exchange.gif)
+![재화환전](./assets/images/exchange.gif)
 
 <h2>뉴스</h2>
 
 * 뉴스를 읽고, 퀴즈 풀이
 
-![재화환전](.\assets\images\newsandquiz.gif)
+![재화환전](./assets/images/newsandquiz.gif)
 
 <h2>칭찬 메시지함 및 알림 기능</h2>
 
 * 투표 받은 칭찬 메시지함 확인
 
-![재화환전](.\assets\images\message.gif)
+![재화환전](./assets/images/message.gif)
 
 * 재화 부족
 
-![재화부족](.\assets\images\short.gif)
+![재화부족](./assets/images/short.gif)
 
 * 투표자 확인
 
-![투표자확인](.\assets\images\check.gif)
+![투표자확인](./assets/images/check.gif)
 
 
 
